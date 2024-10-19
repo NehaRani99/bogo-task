@@ -1,0 +1,106 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #FF6B82;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer-box {
+    padding: 20px;
+    border: 1px solid #FF6B82;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.offer-box.active {
+    border-color: #FF6B82;
+}
+
+.offer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount {
+    background-color: #FF6B82;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.price {
+    text-align: right;
+}
+
+.price .old-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.price .new-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.most-popular {
+    position: relative;
+}
+
+.most-popular:before {
+    content: 'MOST POPULAR';
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #FF6B82;
+    color: white;
+    padding: 3px 7px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-section {
+    display: none;
+    margin-top: 10px;
+}
+
+.dropdown-section.active {
+    display: block;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.free-delivery {
+    color: #FF6B82;
+    margin-top: 10px;
+}
+
+.btn-purchase {
+    background-color: #FF6B82;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
